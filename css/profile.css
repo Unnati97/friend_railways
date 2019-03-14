@@ -1,0 +1,42 @@
+#name
+{
+			position: absolute;
+			color:white;
+			font-size:30;
+			font-family:georgia;
+			text-shadow: 4px 2px black;
+			top:15%;
+			left:10%;
+			text-indent:5px;
+}
+#i1
+{
+			position:absolute;
+			top:34.8%;
+			left:10%;
+}
+#back
+		{
+			position: absolute;
+			height:383px;
+			width: 54%;
+			background-color: white ;
+			top:34.8%;
+			left:38%;
+		}		
+.abc
+{
+			position:absolute;
+			top:38%;
+			left:35%;
+}
+.table
+{
+			position:absolute;
+			top:48%;
+			left:35%;
+}
+.label {
+				
+				font-weight:bold;
+			}

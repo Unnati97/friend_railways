@@ -1,0 +1,138 @@
+		<style>
+        body {
+            font-family: "Lato", sans-serif;
+            color:black;
+        }
+
+        /* Fixed sidenav, full height */
+        .sidenav {
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background: white;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        /* Style the sidenav links and the dropdown button */
+        .sidenav a, .dropdown-btn {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            display: block;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            outline: none;
+        }
+
+		.dropdown:hover .dropdown-container {
+			display: block;
+			
+		}
+
+        /* On mouse-over */
+        .sidenav a:hover, .dropdown-btn:hover {
+        	background: #30a5ff;
+            color: white;
+            display:block;
+        }
+
+        /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+        .dropdown-container {
+            display: none;
+            background-color: white;
+            padding-left: 8px;
+            font-size: 15px;
+        }
+
+        /* Some media queries for responsiveness */
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+        
+        /*for home welcome*/
+        .homewelcome
+        {
+			position:absolute;
+			color:#30a5ff;	
+			left:20%;
+			top:2%;
+			border-radius: 15px 50px 30px;
+			background-color:black;
+			 padding: 7px; 
+        }
+       
+        /*for home 1st paragraph*/
+        .homeDE
+        {
+			border-radius: 25px;
+			position:absolute;
+			background-color:white;
+			color:#8c8c8c;
+			width:71%;
+			top:22%;
+			left:25%;
+			padding: 8px; 
+        }
+        /*for home 2nd paragraph*/
+        .homeDesign
+        {
+			border-radius: 25px;
+			position:absolute;
+			background-color:white;
+			color:#8c8c8c;
+			width:71%;
+			top:50%;
+			left:4%;
+			padding: 8px; 
+        }
+         /*for home 3rd paragraph*/
+        .homerailway
+        {
+			border-radius: 25px;
+			position:absolute;
+			background-color:white;
+			color:#8c8c8c;
+			width:71%;
+			top:75%;
+			left:25%;
+			padding: 8px; 
+        }
+        
+		.inputuser{
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+		}
+		.inputpassword {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+		}
+		.button {
+			background-color: #30a5ff;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+		}
+		.active a 
+		{
+			background-color: #30a5ff;
+			color: white;
+		}
+      </style>

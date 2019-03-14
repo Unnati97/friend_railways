@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>User_interface</title>
+            <style type="text/css">
+                .mySlides {display:none;}
+	        </style>
+        <link rel="stylesheet" href="css/w3.css"/>
+	    <link rel="stylesheet" href="css/header.css"/>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div class="header">
+			    <p style="color:black; display:inline; font-size:40px;">FRIEND</p>
+			    <p style="color:#30a5ff; display:inline; font-size:25px;"><i class="fa fa-train"></i></p>
+			    <p style="color:black; display:inline; font-size:40px;">RAILWAYS</p>
+			    <div class="header-right">
+				    <a class="active" href="Main.aspx"><i class="fa fa-home"></i> Home</a>
+				    <a href="my_booking.aspx"><i class="fa fa-bars"></i> My Booking</a>
+				    <a href="cancel.aspx"><i class="fa fa-close"></i> Cancel Ticket</a>
+				    <a href="PNR.aspx"><i class="fa fa-bell-o"></i> PNR Enquiry</a>
+				    <div class="dropdown">
+					    <button class="dropbtn"><i class="fa fa-user"></i> My Account</button>
+					    <div class="dropdown-content">
+						    <a href="profile.aspx"><i class="fa fa-user-circle"></i> Profile</a>
+						    <a href="chngPass.aspx"><i class="fa fa-key"></i> Change Password</a>
+						    <a href="Login.aspx"><i class="fa fa-power-off"></i> Log Out</a>
+					    </div>
+				    </div> 
+				    <a href="contact.aspx"><i class="fa fa-envelope"></i> Contact Us</a>
+			    </div>
+		    </div>    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
